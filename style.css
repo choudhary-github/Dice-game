@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #b1e8ce;
+    margin: 0;
+}
+
+.container{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    margin: auto;
+    width: 520px;
+    height: 480px;
+    background: #fff;
+    box-shadow: -5px 5px 30px;
+}
+.players{
+    display: flex;
+    justify-content: space-evenly;   
+    margin-bottom: 50px; 
+}
+#player1Dice, #player2Dice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fed2b5;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 50px;
+    /* margin-bottom: ; */
+}
+.dice{
+    font-size: 30px;
+    font-weight: bold;
+}
+.active{
+    box-shadow: -3px 3px 15px black;
+}
+button{
+    display: inline-block;
+    /* align-items:flex-start; */
+    /* justify-content: space-around; */
+}
+#rollBtn,
+#resetBtn{
+    padding: 10px 25px;
+    background: #f18b90;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#resetBtn{
+    display:none
+}
